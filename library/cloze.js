@@ -1,5 +1,8 @@
-function clozeCard(something, something){
+function clozeCard(sentence, cloze){
 
+    
+    
+    
     //functions for logic
 
     //more functions for logic

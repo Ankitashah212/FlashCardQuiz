@@ -1,13 +1,26 @@
 {
-  "name": "closehw",
+  "name": "flashcards-quiz",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "trivia game ",
+  "main": "basicCard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitashah212/FlashCardQuiz.git"
+  },
+  "keywords": [
+    "node",
+    "constructors",
+    "inquirer"
+  ],
+  "author": "ashah",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankitashah212/FlashCardQuiz/issues"
+  },
+  "homepage": "https://github.com/Ankitashah212/FlashCardQuiz#readme",
   "dependencies": {
     "inquirer": "^3.3.0"
   }
