@@ -1,7 +1,16 @@
-function basicCard(front, back){
+function basicCard(front, back) {
+    if (this instanceof basicCard) {
+        this.front = front;
+        this.back = back;
+    } else {
+        return new basicCard(front, back);
+    }
 
-    //condidtional code, hint probably gonna need a constructor
+}
 
+basicCard.prototype.printInfo = function () {
+
+    console.log(this.front, this.back);
 }
 
 module.exports = basicCard;

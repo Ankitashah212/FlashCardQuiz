@@ -1,6 +1,1 @@
-[
-    {
-        "partial": "this is a question",
-        "cloze": "question"
-    }
-]
+{ "front":"Hi", "back":"bye" }
