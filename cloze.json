@@ -1,25 +1,6 @@
 {
     "cloze": [
-        {
-            "sentence": "red fish blue fish",
-            "cloze": "blue"
-        },
-        {
-            "sentence": "Curious like curious george",
-            "cloze": "george"
-        },
-        {
-            "sentence": "one fish two fish",
-            "cloze": "two fish"
-        },
-        {
-            "sentence": "knock knock who's there",
-            "cloze": "who's there"
-        },
-        {
-            "sentence": "why did the Chicken cross the road",
-            "cloze": "road"
-        },
+        
         {
             "sentence": "Land Of the free and Home of the Brave",
             "cloze": "Land Of the free"
@@ -47,22 +28,6 @@
         {
             "sentence": "knock knock who's there",
             "cloze": "who's there"
-        },
-        {
-            "sentence": "why did the Chicken cross the road",
-            "cloze": "road"
-        },
-        {
-            "sentence": "Land Of the free and Home of the Brave",
-            "cloze": "Land Of the free"
-        },
-        {
-            "sentence": "one nation under god",
-            "cloze": "god"
-        },
-        {
-            "sentence": "with liberty and justice for all.",
-            "cloze": "pledge"
         }
     ]
 }

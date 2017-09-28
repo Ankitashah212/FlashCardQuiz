@@ -37,7 +37,7 @@ fs.readFile(cardData, "utf8", function (error, data) {
 var count = 0;
 
 function startGame(inputData) {
-    if (count < (inputData.length-1)) {
+    if (count < (inputData.length)) {
         // start a game
         inquirer.prompt([
             {
@@ -55,9 +55,7 @@ function startGame(inputData) {
         });
     } else {
         endGame();
-
     }
-
 }
 
 function endGame() {
