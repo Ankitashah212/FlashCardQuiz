@@ -34,34 +34,27 @@ fs.readFile(cardData, "utf8", function (error, data) {
 });
 
 var count = 0;
-var wantToPlay = true;
 function startGame(inputData) {
-  
-    if (wantToPlay && (count < inputData.length)) {
+
+    if (count < (inputData.length - 1)) {
         // start a game
         inquirer.prompt([
             {
                 name: "answer",
                 message: inputData[count].getQuestion(),
-            },
-            {
-                type: "confirm",
-                message: "do you want to keep playing?:",
-                name: "confirm",
-                default: true
             }
         ]).then(function (answers) {
+            //check if ans matches
             if (answers.answer.toLowerCase() == (inputData[count].cloze).toLowerCase()) {
                 win++;
             }
-            wantToPlay = answers.confirm;
             count++;
-            if (!(wantToPlay)) {
-                endGame();
-            }
-            // run the askquestion function again so as to either end the loop or ask the questions again
+            // run the function again so as to either end the loop or ask the questions again
             startGame(inputData);
         });
+    } else {
+        endGame();
+
     }
 
 }

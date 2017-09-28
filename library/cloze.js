@@ -1,3 +1,4 @@
+// logger to log any faulty data
 const log4js = require('log4js');
 log4js.configure({
     appenders: { clozeErr: { type: 'file', filename: 'output.log' } },
@@ -7,7 +8,7 @@ log4js.configure({
 //logger object to log output
 const logger = log4js.getLogger('clozeErr');
 
-
+// constructor
 
 function clozeCard(sentence, cloze) {
 
@@ -18,19 +19,21 @@ function clozeCard(sentence, cloze) {
         if (sentence.includes(cloze)) {
             return new clozeCard(sentence, cloze);
         }
-        else {
+        else { // input validation :)
             logger.fatal("Faulty Card : doesn't contain cloze " + sentence + "  " + cloze);
         }
     }
 
 }
+
 clozeCard.prototype.filler = "  ... ";
 
+//method for debugging purposes
 clozeCard.prototype.printInfo = function () {
 
     console.log(this.sentence, this.cloze);
 }
-
+// extracts question out of a sentence
 clozeCard.prototype.getQuestion = function () {
 
     return (this.sentence.replace(this.cloze, this.filler))
