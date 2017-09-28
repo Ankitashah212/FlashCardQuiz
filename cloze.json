@@ -1,68 +1,68 @@
 {
-    "cloz": [
+    "cloze": [
         {
             "sentence": "red fish blue fish",
-            "cloz": "blue"
+            "cloze": "blue"
         },
         {
             "sentence": "Curious like curious george",
-            "cloz": "george"
+            "cloze": "george"
         },
         {
             "sentence": "one fish two fish",
-            "cloz": "two fish"
+            "cloze": "two fish"
         },
         {
             "sentence": "knock knock who's there",
-            "cloz": "who's there"
+            "cloze": "who's there"
         },
         {
             "sentence": "why did the Chicken cross the road",
-            "cloz": "road"
+            "cloze": "road"
         },
         {
             "sentence": "Land Of the free and Home of the Brave",
-            "cloz": "Land Of the free"
+            "cloze": "Land Of the free"
         },
         {
             "sentence": "one nation under god",
-            "cloz": "god"
+            "cloze": "god"
         },
         {
             "sentence": "with liberty and justice for all.",
-            "cloz": "justice"
+            "cloze": "justice"
         },
         {
             "sentence": "red fish blue fish",
-            "cloz": "blue"
+            "cloze": "blue"
         },
         {
             "sentence": "Curious like curious george",
-            "cloz": "george"
+            "cloze": "george"
         },
         {
             "sentence": "one fish two fish",
-            "cloz": "two fish"
+            "cloze": "two fish"
         },
         {
             "sentence": "knock knock who's there",
-            "cloz": "who's there"
+            "cloze": "who's there"
         },
         {
             "sentence": "why did the Chicken cross the road",
-            "cloz": "road"
+            "cloze": "road"
         },
         {
             "sentence": "Land Of the free and Home of the Brave",
-            "cloz": "Land Of the free"
+            "cloze": "Land Of the free"
         },
         {
             "sentence": "one nation under god",
-            "cloz": "god"
+            "cloze": "god"
         },
         {
             "sentence": "with liberty and justice for all.",
-            "cloz": "justice"
+            "cloze": "justice"
         }
     ]
 }
