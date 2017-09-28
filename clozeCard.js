@@ -37,7 +37,7 @@ var count = 0;
 var wantToPlay = true;
 function startGame(inputData) {
   
-    if (wantToPlay) {
+    if (wantToPlay && (count < inputData.length)) {
         // start a game
         inquirer.prompt([
             {
@@ -54,7 +54,7 @@ function startGame(inputData) {
             if (answers.answer.toLowerCase() == (inputData[count].cloze).toLowerCase()) {
                 win++;
             }
-            wantToPlay = (answers.confirm && (count < inputData.length));
+            wantToPlay = answers.confirm;
             count++;
             if (!(wantToPlay)) {
                 endGame();

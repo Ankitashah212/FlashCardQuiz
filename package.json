@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Ankitashah212/FlashCardQuiz#readme",
   "dependencies": {
-    "inquirer": "^3.3.0"
+    "inquirer": "^3.3.0",
+    "log4js": "^2.3.4"
   }
 }
