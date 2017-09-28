@@ -1,7 +1,7 @@
 //requires
 
 var basicCard = require('./library/close.js');
-var cardDate = require('./cloze.json');
+const cardData = "cloze.json";
 var inquirer = require('inquirer');
 
 startgame();

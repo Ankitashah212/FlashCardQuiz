@@ -1,1 +1,68 @@
-{ "front":"Hi", "back":"bye" }
+{
+    "cloz": [
+        {
+            "sentence": "red fish blue fish",
+            "cloz": "blue"
+        },
+        {
+            "sentence": "Curious like curious george",
+            "cloz": "george"
+        },
+        {
+            "sentence": "one fish two fish",
+            "cloz": "two fish"
+        },
+        {
+            "sentence": "knock knock who's there",
+            "cloz": "who's there"
+        },
+        {
+            "sentence": "why did the Chicken cross the road",
+            "cloz": "road"
+        },
+        {
+            "sentence": "Land Of the free and Home of the Brave",
+            "cloz": "Land Of the free"
+        },
+        {
+            "sentence": "one nation under god",
+            "cloz": "god"
+        },
+        {
+            "sentence": "with liberty and justice for all.",
+            "cloz": "justice"
+        },
+        {
+            "sentence": "red fish blue fish",
+            "cloz": "blue"
+        },
+        {
+            "sentence": "Curious like curious george",
+            "cloz": "george"
+        },
+        {
+            "sentence": "one fish two fish",
+            "cloz": "two fish"
+        },
+        {
+            "sentence": "knock knock who's there",
+            "cloz": "who's there"
+        },
+        {
+            "sentence": "why did the Chicken cross the road",
+            "cloz": "road"
+        },
+        {
+            "sentence": "Land Of the free and Home of the Brave",
+            "cloz": "Land Of the free"
+        },
+        {
+            "sentence": "one nation under god",
+            "cloz": "god"
+        },
+        {
+            "sentence": "with liberty and justice for all.",
+            "cloz": "justice"
+        }
+    ]
+}
